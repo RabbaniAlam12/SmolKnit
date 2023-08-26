@@ -1,0 +1,31 @@
+:root {
+    --backgroundColor: #86E5FF;
+    --navBarFooter: #71BCE9;
+}
+
+body {
+    background-color: var(--backgroundColor);
+
+}
+
+nav {
+    background-color: var(--navBarFooter);
+}
+
+.branding-collection {
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+}
+
+/* .branding-collection img {
+    max-width: 100%; 
+    max-height: 100%;
+} */
+
+.navbar-brand.center {
+    position: absolute;
+    left: 50%;
+
+}
