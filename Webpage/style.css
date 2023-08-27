@@ -1,5 +1,6 @@
 :root {
-    --backgroundColor: #86E5FF;
+    --backgroundColor: #BBDAEC;
+    --sectionColor: #86E5FF;
     --navBarFooter: #71BCE9;
 }
 
@@ -12,20 +13,57 @@ nav {
     background-color: var(--navBarFooter);
 }
 
-.branding-collection {
-    width: 100%;
-    height: 100vh;
-    display: flex; 
+.navbar-brand.center {
+    position: absolute;
+    left: 50%;
+
+}
+
+.all-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 75rem;
+    height: 30rem;
+    background-color: var(--sectionColor);
+    align-items: center;
+}
+
+.section h3 {
+    margin-bottom: 2rem;
+}
+
+#babyPicture {
+    width: 25rem; 
+    height: 14rem; 
+    overflow: hidden;
+    margin-bottom: 2rem;  
+}
+
+#babyPicture img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+#branding-collection {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#intro p {
+    width: 80%;
 }
 
 /* .branding-collection img {
     max-width: 100%; 
     max-height: 100%;
 } */
-
-.navbar-brand.center {
-    position: absolute;
-    left: 50%;
-
-}
